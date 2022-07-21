@@ -1,5 +1,6 @@
 ### 02.__ // Aula/Semana 02 // Objetos, estado e comportamento
 
+```plain
 POO 02.00 // videoaula // Abertura da Aula/Semana 02 // 3min https://youtu.be/gYN7QVyyt_I
 POO 02.01 // videoaula // A história da Programação Orientada a Objetos // 30min https://youtu.be/cK05UEzTn6I
   https://www.youtube.com/watch?v=6orsmFndx_o
@@ -23,11 +24,12 @@ POO 02.__ // videoaula // Playlist da Aula/Semana 02 // ~3h30min https://youtube
 ---- extras
 POO 02.14 // podcast // extra // Práticas de Orientação a Objetos – Hipsters #129 // 55min https://hipsters.tech/praticas-de-orientacao-a-objetos-hipsters-129/
 POO 02.15 // video // extra // Programação Orientada a Objetos (POO) // Dicionário do Programador - Código Fonte TV // 10min https://youtu.be/QY0Kdg83orY
-
+```
 
 
 ### 03.__ // Aula/Semana 03 // Polimorfismo ad hoc, encapsulamento, identidade e igualdade
 
+```plain
 POO 03.00 📺 videoaula // Abertura da Aula/Semana 03 🕐 3min https://youtu.be/s2MbVJWK360
 POO 03.01 📺 videoaula // Conceito de polimorfismo 🕐 6min https://youtu.be/0DLeIuc6C9g
 POO 03.02 📺 videoaula // Polimorfismo ad-hoc e a sobrecarga 🕓 19min https://youtu.be/AJGAxVVuKGY
@@ -44,12 +46,13 @@ POO 03.__ 📺📺📺 playlist da Aula/Semana 03 🕞 2h50  https://youtube.com
 ---- extras
 POO 03.12 ➕ extra 📄 texto // Anemic Domain Model by Martin Flower [EN] // 10min
 POO 03.13 ➕ extra 📄 texto // Principle of Least Privilege [EN] //15min
-
+```
 
 
 
 ## 04.__ // Aula/Semana 04 // Imutabilidade, representação e formato, coesão
 
+```plain
 POO 04.00 📺 Abertura da Aula/Semana 04 🕐 5min https://youtu.be/r-nEGNMc7ik
 POO 04.01 📺 Conceito de Imutabilidade 🕓 19min https://youtu.be/e6FLzj6nj8E
 POO 04.02 📺 Conceito de Objetos de Valor 🕓 18min https://youtu.be/ZF1Wmzrj0Tg
@@ -62,11 +65,12 @@ POO 04.08 📺 A baixa coesão, e como aumentá-la 🕧 28min https://youtu.be/9
 POO 04.__ 📺 📺 📺 📺 📺 📺 📺 📺 📺 playlist 🕝 2h29 https://youtube.com/playlist?list=PLLkaWLH9A_QVrcAVEdf2zk8zzP0BRIRAl
 POO 04.10 ➕ 📄 ValueObject por Martin Fowler em https://martinfowler.com/bliki/ValueObject.html
 POO 04.11 ➕ 📄 Cohesion por Manh Phan em &lt;https://ducmanhphan.github.io/2019-03-23-Coupling-and-Cohension-in-OOP/#cohesion&gt;
-
+```
 
 
 ## 05.__ // Aula/Semana 05 // Associações, agregação, modelagem com diagramas e implementação
 
+```plain
 POO 05.00 📺 Abertura da Aula/Semana 5 🕐 2min https://youtu.be/OxkyaWHRCnI
 POO 05.01 📺 Conceito de associação entre objetos 🕒 15min https://youtu.be/oQ5j7TscIik
 POO 05.02 📺 Conceito de agregação de objetos 🕒 16min https://youtu.be/qy6kz2rrBKE
@@ -76,11 +80,12 @@ POO 05.05 📺 Dinâmica das agregações 🕓 21min https://youtu.be/MnT-DdYQwa
 POO 05.06 📺 Grafo de Objetos e navegação 🕔 26min https://youtu.be/nbs4wxfhzSs
 POO 05.__ 📺 📺 📺 📺 📺 📺 📺 playlist 🕜 2h https://youtube.com/playlist?list=PLLkaWLH9A_QUvrKliOeMN-OfLaVqv7MEb
 POO 05.08 ➕ 📺 Composição (de Objetos) por Código Fonte TV 🕐 6min https://www.youtube.com/watch?v=IJ1ZBkMe21w
-
+```
 
 
 ## 06.__ // Aula/Semana 06 // Associações, composição, responsabilidades, GRASP, modelagem do domínio
 
+```plain
 POO 06.00 📺 Abertura da Aula/Semana 6 🕐 6min https://youtu.be/acHUGjoawu4
 POO 06.01 📺 Conceito de composição e divisão de responsabilidades 🕓 20min https://youtu.be/_XBj42cstq8
 POO 06.02 📺 Atribuição de responsabilidades e os princípios GRASP 🕓 19min https://youtu.be/GwND6Qas5WQ
@@ -97,12 +102,13 @@ POO 06.__ 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 playlist 🕞 3
 
 POO 06.12 ➕ 📄 Padrões GRASP <https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)>
 POO 06.13 ➕ 📺 Modelo de domínio em Java: Por onde começar? <https://youtu.be/iDhg2CtRSII>
-
+```
 
 
 ## 07.__ // Aula/Semana 07 // Direcionalidade, Multiplicidade & Acoplamento
 
 
+```plain
 POO 07.00 📺 Abertura da Aula/Semana 7 🕐 4min https://youtu.be/dIawWMJWg-Q
 POO 07.01 📺 Conceitos de direcionalidade e multiplicidade 🕓 20min https://youtu.be/suzyNfjKf3I
 POO 07.02 📺 Projetar e implementar a direcionalidade 🕔 26min https://youtu.be/pqPW1OIkssM
@@ -112,10 +118,12 @@ POO 07.04 📺 Conceito de dependência e acoplamento 🕒 16min https://youtu.b
 POO 07.__ 📺 📺 📺 📺 📺 playlist 🕜 1h30 https://youtube.com/playlist?list=PLLkaWLH9A_QXL94jq7-RzqKstD6s80WhT
 
 POO 07.06 ➕ 📄 UML Class Diagram by IBM <https://developer.ibm.com/technologies/web-development/articles/the-class-diagram/#>
+```
 
 
 ## 08.__ // Aula/Semana 08 // Generalização e especialização, polimorfismo por subtipagem
 
+```plain
 POO 08.00 📺 Abertura da Aula/Semana 8 🕐 7min https://youtu.be/vnRgVsUKis8
 POO 08.01 📺 Conceito de generalização e especialização 🕒 17min https://youtu.be/LRskz4v6V08
 POO 08.02 📺 Conceito de hierarquia de classes e herança 🕒 24min https://youtu.be/KcCyNzIehTc
@@ -133,12 +141,13 @@ POO 08.10 📺 Projetar para a herança ou proíbi-la e como não fazer subtipag
 POO 08.__ 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 playlist 🕜 3h30 https://youtube.com/playlist?list=PLLkaWLH9A_QVX6L4puepCXvGa4TeALJlT
 
 POO 08.12 ➕ 📺 Orientação a Objetos: Herança e Polimorfismo: sobrecarga de métodos de Loiane Groner https://youtu.be/pMPlngyWHLM
-
+```
 
 
 
 ## 09.__ // Aula/Semana 09 // Classes Abstratas e Concretas, Interfaces, e Polimorfismo Paramétrico
 
+```plain
 POO 09.00 📺 Abertura da Aula/Semana 9 🕐 5min  https://youtu.be/dRRMypPuIiQ
 
 POO 09.01 📺 Conceito de classes abstratas e concretas 🕓 22min https://youtu.be/hYj0FPKgc6E
@@ -159,12 +168,13 @@ POO 09.12 📺 Polimorfismo por subtipagem e paramétrico, juntos 🕑 11min htt
 POO 09.__ 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 playlist 🕜 4h https://youtube.com/playlist?list=PLLkaWLH9A_QXVb08EdUTbsJV4WnqwK7lC
 
 POO 09.15 ➕ 📄 Material Adicional https://www.youtube.com/watch?v=VIce-6b7kas
-
+```
 
 
 
 ## 10.__ // Aula/Semana 10 // Aplicação de fim-a-fim: Front-end Web <-> Back-end Web API <-> Persistência BD SQL
 
+```plain
 POO 10.00 📺 Abertura da Aula/Semana 10 🕒 16min  https://youtu.be/7ldsS1fG9WU
 
 POO 10.01 📺 Os blocos macro e micro de uma aplicação do início ao fim 🕒 15min https://youtu.be/1LK8Vj4Ac5Q
@@ -188,3 +198,4 @@ POO 10.12 📺 Conectar front-end com back-end e realizar testes 🕔 19min http
 POO 10.__ 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 📺 playlist 🕟 4h15min https://youtube.com/playlist?list=PLLkaWLH9A_QXVE8GDqPyWjkO0v2CF0rs1
 
 POO 10.14 ➕ 📺 O que é API, HTTP e JSON? por  https://youtu.be/xYrm50TcncY
+```
