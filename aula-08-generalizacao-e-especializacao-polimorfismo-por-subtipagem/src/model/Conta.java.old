@@ -1,0 +1,140 @@
+package model;
+
+import java.util.ArrayList;
+
+public class Conta {
+
+  private final int agencia;
+  private final int numero;
+  private final String titular;
+  private final String segundoTitular;
+
+  private final ArrayList<String> historico = new ArrayList<>();
+
+  private final char tipo;
+
+  private final int limiteSaques;
+  private int saques = 0;
+  private int saldo = 0;
+
+  /**
+   * Cria uma conta.
+   * @param tipo tipo da conta que pode ser 'c', 'p', 's' ou 'e'.
+   * @param agencia agência da conta.
+   * @param numero número da conta.
+   * @param titular titular da conta.
+   * @param depositoInicial depósito inicial opcional (se for positivo).
+   * @throws IllegalArgumentException se tipo inválido.
+   */
+  public Conta(char tipo, int agencia, int numero, String titular, int depositoInicial) {
+    if (tipo != 'c' && tipo != 'p' && tipo != 's' && tipo != 'e') {
+      throw new IllegalArgumentException("Tipo deve ser Conta, Poupança, Salário ou Especial");
+    }
+
+    this.tipo = tipo;
+
+    if (tipo == 's') {
+      this.limiteSaques = 2;
+    } else {
+      this.limiteSaques = 10;
+    }
+
+    if (tipo == 'j') {
+      this.segundoTitular = segundoTitular;
+    } else {
+      this.segundoTitular = null;
+    }
+
+    if (tipo == 'p' && depositoInicial < 1000) {
+      throw new IllegalArgumentException(
+        "Depósito inicial deve ser de pelo menos R$ 1.000,00 para abrir a poupança");
+    }
+
+
+
+    this.agencia = agencia;
+    this.numero = numero;
+    this.titular = titular;
+
+    historico.add(String.format(
+        "Conta aberta na agência %d número %d em nome de %s", agencia, numero, titular
+    ));
+
+    if (depositoInicial > 0) {
+      this.depositar(depositoInicial);
+    }
+  }
+
+  public int getAgencia() {
+    return agencia;
+  }
+
+  public int getNumero() {
+    return numero;
+  }
+
+  public String getTitular() {
+    return titular;
+  }
+
+  public int getSaldo() {
+    return saldo;
+  }
+
+  public int getSaquesRemanescentes() {
+    return saques;
+  }
+
+  /**
+   * Retorna o tipo da conta, se Conta, Salário, Poupança ou Especial.
+   * @return
+   */
+  public String getTipo() {
+    switch (this.tipo) {
+      case 'c': return "Conta";
+      case 's': return "Salário";
+      case 'p': return "Poupança";
+      case 'e': return "Especial";
+      default:
+        throw new IllegalStateException();
+    }
+  }
+
+  public ArrayList<String> getHistorico() {
+    return new ArrayList<String>(historico);
+  }
+
+  /**
+   * Deposita um valor na conta.
+   * @param valor o valor a ser depositado.
+   * @throws IllegalArgumentException se valor for zero ou negativo.
+   */
+  public void depositar(int valor) {
+    if (valor < 0) {
+      throw new IllegalArgumentException("Depósito precisa de um valor positivo");
+    }
+    this.saldo += valor;
+    historico.add("Depósito no valor de %d e novo saldo de %d".formatted(valor, this.saldo));
+  }
+
+  /**
+   * Saca um valor da conta.
+   * @param valor valor a ser sacado.
+   * @throws IllegalStateException se saldo for insuficiente.
+   */
+  public void sacar(int valor) {
+    if (valor > this.saldo) {
+      throw new IllegalStateException("Não há saldo suficiente");
+    }
+    this.saldo -= valor;
+    historico.add("Saque no valor de %d e novo saldo de %d".formatted(valor, this.saldo));
+    if (++this.saques == this.limiteSaques) {
+      this.saques = 0;
+      this.saldo -= 1;
+      historico.add(
+            "Pacote de %d saques ultrapassado, cobrado R$ 1,00 e novo saldo de %d"
+            .formatted(this.limiteSaques, this.saldo)
+      );
+    }
+  }
+}
